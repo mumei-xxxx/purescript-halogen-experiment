@@ -33,5 +33,5 @@ component =
       ]
 
   handleAction = case _ of
-    Increment -> H.modify_ \state -> state + 1
-    Decrement -> H.modify_ \state -> state - 1
+    Increment -> H.modify_ \state -> state + 100
+    Decrement -> H.modify_ \state -> state - 10
